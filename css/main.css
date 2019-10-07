@@ -3,6 +3,7 @@ html {
   background-color: #eee9de;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
+  margin-left: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -12,19 +13,20 @@ html {
 img {
   display: inline-block;
   max-width: 25em;
-  width: 25em;
+  width: 16em;
 }
 
 div {
   display: inline-block;
+  max-height: 300px;
+}
+
+h2 {
+  margin-bottom:
 }
 
 p {
   max-width: 25em
-}
-
-.information a {
-
 }
 
 a:hover {
@@ -38,8 +40,8 @@ article {
   max-width: 25em;
 }
 
-link a {
-  display: inline-block;
+nav a{
   list-style-type: none;
   border-radius: .3em;
+  border: 3px, solid, #666;
 }
