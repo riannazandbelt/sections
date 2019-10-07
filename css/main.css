@@ -40,7 +40,7 @@ article {
   max-width: 25em;
 }
 
-nav a{
+.navigation a{
   list-style-type: none;
   border-radius: .3em;
   border: 3px, solid, #666;
