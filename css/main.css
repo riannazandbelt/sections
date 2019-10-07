@@ -9,10 +9,37 @@ html {
   box-sizing: inherit;
 }
 
-nav a {
-  border-radius: .3em;
+img {
+  display: inline-block;
+  max-width: 25em;
+  width: 25em;
+}
+
+div {
+  display: inline-block;
+}
+
+p {
+  max-width: 25em
+}
+
+.information a {
+
 }
 
 a:hover {
   display: inline-block;
+  list-style-type: none;
+  border-radius: .3em;
+}
+
+article {
+  display: inline-block;
+  max-width: 25em;
+}
+
+link a {
+  display: inline-block;
+  list-style-type: none;
+  border-radius: .3em;
 }
