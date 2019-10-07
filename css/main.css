@@ -12,3 +12,7 @@ html {
 nav a {
   border-radius: .3em;
 }
+
+a:hover {
+  display: inline-block;
+}
