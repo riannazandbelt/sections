@@ -4,6 +4,8 @@ html {
   font-family: Lato, sans-serif;
   line-height: 1.5;
   margin-left: 1.5rem;
+  color: #333;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -13,7 +15,7 @@ html {
 img {
   display: inline-block;
   max-width: 25em;
-  width: 15em;
+  width: 100%;
   flex-wrap: wrap;
   margin-top: 3em;
   padding-right: 2em;
@@ -56,7 +58,6 @@ nav ul {
   width: 9em;
   padding: 0;
   text-align: center;
-  vertical-align: middle;
 }
 
 nav a {
