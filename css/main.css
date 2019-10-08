@@ -13,7 +13,7 @@ html {
 }
 
 img {
-  display: inline-block;
+  display: inline-flex;
   max-width: 25em;
   width: 100%;
   flex-wrap: wrap;
@@ -31,7 +31,7 @@ h2 {
 }
 
 p {
-  max-width: 25em
+  max-width: 25em;
 }
 
 a:hover {
@@ -66,4 +66,8 @@ nav a {
   text-decoration: none;
   padding: .5em;
   color: #666;
+}
+
+body {
+  margin: 0;
 }
