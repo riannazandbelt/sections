@@ -41,10 +41,10 @@ a:hover {
   width: 8.7em;
   text-align: center;
   font-size: 1em;
-  padding: 0.7em;
+  padding: .7em;
 }
 
-article {
+section {
   display: inline-block;
   max-width: 25em;
 }
@@ -64,10 +64,22 @@ nav a {
   display: inline-block;
   text-align: left;
   text-decoration: none;
-  padding: 0.5em;
+  padding: .5em;
   color: #666;
 }
 
 body {
   margin: 0;
+}
+
+button {
+  list-style-type: none;
+  border-radius: .3em;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #666;
+  width: 5em;
+  padding: .5em;
+  text-align: center;
+  text-decoration: none;
 }
