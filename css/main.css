@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #eee9de;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   line-height: 1.5;
   margin-left: 1.5rem;
 }
@@ -13,7 +13,10 @@ html {
 img {
   display: inline-block;
   max-width: 25em;
-  width: 16em;
+  width: 15em;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  padding-right: 2em;
 }
 
 div {
@@ -31,8 +34,12 @@ p {
 
 a:hover {
   display: inline-block;
-  list-style-type: none;
-  border-radius: .3em;
+  color: #fff;
+  background-color: #666;
+  width: 8.7em;
+  text-align: center;
+  font-size: 1em;
+  padding: .5em;
 }
 
 article {
@@ -40,8 +47,21 @@ article {
   max-width: 25em;
 }
 
-.navigation a{
+nav ul {
   list-style-type: none;
   border-radius: .3em;
-  border: 3px, solid, #666;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #666;
+  width: 9em;
+  padding: 0;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  text-align: left;
+  text-decoration: none;
+  padding: .5em;
+  color: #666;
 }
