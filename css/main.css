@@ -13,8 +13,7 @@ html {
 }
 
 img {
-  display: inline;
-  max-width: 25em;
+  display: inherit;
   width: 100%;
   flex-wrap: wrap;
   margin-top: 3em;
@@ -72,14 +71,6 @@ body {
   margin: 0;
 }
 
-button {
-  list-style-type: none;
-  border-radius: .3em;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #666;
-  width: 5em;
-  padding: .5em;
-  text-align: center;
+.btn {
   text-decoration: none;
 }
