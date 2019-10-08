@@ -25,7 +25,7 @@ div {
 }
 
 h2 {
-  margin-bottom:
+  margin-bottom: 0;
 }
 
 p {
@@ -56,6 +56,7 @@ nav ul {
   width: 9em;
   padding: 0;
   text-align: center;
+  vertical-align: middle;
 }
 
 nav a {
