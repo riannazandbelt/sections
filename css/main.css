@@ -13,7 +13,7 @@ html {
 }
 
 img {
-  display: inline-flex;
+  display: inline;
   max-width: 25em;
   width: 100%;
   flex-wrap: wrap;
@@ -49,7 +49,7 @@ article {
   max-width: 25em;
 }
 
-nav ul {
+nav ol {
   list-style-type: none;
   border-radius: .3em;
   border-width: 3px;
