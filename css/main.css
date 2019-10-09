@@ -27,6 +27,7 @@ div {
 
 h2 {
   margin-bottom: 0;
+  margin-top: 1.5rem;
 }
 
 p {
@@ -53,7 +54,7 @@ nav span {
   border-radius: .3em;
   border-width: 3px;
   border-style: solid;
-  border-color: #666;
+  border-color: #333;
   width: 5em;
   padding: .5em;
   text-align: center;
