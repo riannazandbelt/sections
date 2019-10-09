@@ -35,6 +35,8 @@ h2 {
 
 p {
   max-width: 25em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .btn a:hover {
@@ -73,9 +75,4 @@ section {
 
 body {
   margin: 0;
-}
-
-p {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
 }
