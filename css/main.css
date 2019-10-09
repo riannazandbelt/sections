@@ -33,7 +33,7 @@ p {
   max-width: 25em;
 }
 
-a:hover {
+.link a:hover {
   display: inline-block;
   color: #fff;
   background-color: #666;
