@@ -20,6 +20,7 @@ html {
 img {
   display: block;
   width: 100%;
+  max-width: 25em;
   flex-wrap: wrap;
   margin-top: 3em;
 }
