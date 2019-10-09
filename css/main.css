@@ -33,7 +33,7 @@ p {
   max-width: 25em;
 }
 
-.link a:hover {
+.btn a:hover {
   display: inline-block;
   color: #fff;
   background-color: #666;
@@ -48,7 +48,7 @@ section {
   max-width: 25em;
 }
 
-.link {
+.btn {
   list-style-type: none;
   border-radius: .3em;
   border-width: 3px;
@@ -59,7 +59,7 @@ section {
   text-align: center;
 }
 
-.link a {
+.btn a {
   display: inline-block;
   text-align: left;
   text-decoration: none;
