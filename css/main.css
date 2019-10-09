@@ -14,7 +14,7 @@ html {
 }
 
 img {
-  display: inherit;
+  display: block;
   width: 100%;
   flex-wrap: wrap;
   margin-top: 3em;
