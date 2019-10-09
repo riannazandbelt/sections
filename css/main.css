@@ -22,7 +22,6 @@ img {
 
 div {
   display: inline-block;
-  max-height: 300px;
 }
 
 h2 {
@@ -49,7 +48,7 @@ section {
   max-width: 25em;
 }
 
-nav span {
+.link {
   list-style-type: none;
   border-radius: .3em;
   border-width: 3px;
@@ -60,7 +59,7 @@ nav span {
   text-align: center;
 }
 
-nav a {
+.link a {
   display: inline-block;
   text-align: left;
   text-decoration: none;
