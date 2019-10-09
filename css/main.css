@@ -15,12 +15,12 @@ html {
 
 .pyramid {
   text-align: center;
+  max-width: 25em;
 }
 
 img {
   display: block;
   width: 100%;
-  max-width: 25em;
   flex-wrap: wrap;
   margin-top: 3em;
 }
