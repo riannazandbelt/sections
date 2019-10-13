@@ -5,6 +5,7 @@ html {
   line-height: 1.5;
   color: #333;
   vertical-align: middle;
+  align-content: space-between;
 }
 
 *, *::before, *::after {
@@ -14,18 +15,26 @@ html {
 .pyramid {
   text-align: center;
   max-width: 25em;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 img {
   display: block;
   width: 100%;
   flex-wrap: wrap;
-  margin-top: 1.5em;
-  padding-top: .4em;
+  padding: .4em;
+  max-width: 25em;
+  overflow: hidden;
+  max-height: 300px;
+  object-fit: contain;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 div {
-  display: inline-block;
+  display: flex;
+  width: 100%;
 }
 
 h2 {
@@ -35,8 +44,8 @@ h2 {
 
 p {
   max-width: 25em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .btn a:hover {
@@ -46,16 +55,17 @@ p {
   width: 7.5em;
   text-align: center;
   font-size: 1em;
-  padding: .7em;
 }
 
 section {
   display: inline-block;
   max-width: 25em;
-  padding: 1em;
+  padding: .4em .75em .5em;
+  padding-bottom: 0;
 }
 
 .btn {
+  display: inline-block;
   list-style-type: none;
   border-radius: .3em;
   border-width: 3px;
@@ -64,11 +74,11 @@ section {
   width: 7.5em;
   padding: .1em;
   text-align: center;
+  color: #333;
 }
 
 .btn a {
   display: inline-block;
-  text-align: left;
   text-decoration: none;
   color: #666;
   padding: .4em;
@@ -83,4 +93,5 @@ body {
   padding-bottom: 3em;
   text-align: left;
   vertical-align: top;
+  padding-top: 0;
 }
