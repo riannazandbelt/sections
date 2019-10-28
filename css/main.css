@@ -24,9 +24,6 @@ img {
   width: 100%;
   flex-wrap: wrap;
   max-width: 25em;
-  overflow: hidden;
-  max-height: 300px;
-  object-fit: contain;
   padding: 1em;
   padding-bottom: 0;
 }
