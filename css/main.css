@@ -23,13 +23,12 @@ img {
   display: block;
   width: 100%;
   flex-wrap: wrap;
-  padding: .4em;
   max-width: 25em;
   overflow: hidden;
   max-height: 300px;
   object-fit: contain;
+  padding: 1em;
   padding-bottom: 0;
-  padding-top: 0;
 }
 
 div {
@@ -40,12 +39,14 @@ div {
 h2 {
   margin-bottom: 0;
   margin-top: 0;
+  color: #333;
 }
 
 p {
   max-width: 25em;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 1.5rem;
+  color: #333;
 }
 
 .btn a:hover {
@@ -60,8 +61,6 @@ p {
 section {
   display: inline-block;
   max-width: 25em;
-  padding: .4em .75em .5em;
-  padding-bottom: 0;
 }
 
 .btn {
@@ -80,18 +79,19 @@ section {
 .btn a {
   display: inline-block;
   text-decoration: none;
-  color: #666;
+  color: #333;
   padding: .4em;
 }
 
 body {
   margin: 0;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 .great-pyramid {
-  padding-bottom: 3em;
+  padding: 1em;
+  padding-top: 0;
   text-align: left;
   vertical-align: top;
-  padding-top: 0;
 }
