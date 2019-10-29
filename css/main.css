@@ -30,7 +30,7 @@ h2 {
 
 .btn {
   display: inline-block;
-  padding-bottom: 4rem;
+  padding-bottom: 3.5rem;
 }
 
 .btn a {
@@ -54,11 +54,13 @@ p {
   text-align: left;
   padding-bottom: 1rem;
   color: #000;
+  padding-right: .55rem;
 }
 
 body {
   padding: .4em .65em .5em .85rem;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .great-pyramid {
