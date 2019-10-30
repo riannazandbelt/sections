@@ -1,74 +1,43 @@
 html {
   box-sizing: border-box;
-  background-color: #eee9de;
-  font-family: Lato, sans-serif;
-  line-height: 1.5;
-  color: #333;
-  display: inline-block;
-  vertical-align: middle;
+  font: 100%/1.5 Lato, san-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
-.banner {
-  text-align: center;
-}
-
-.image {
-  padding: 1em;
-  margin: 2em 0 0;
-  display: inline-block;
-  max-width: 25em;
-  vertical-align: middle;
-}
-
-.content-cont {
-  padding: .75em 0 0;
-  margin: 0;
-  text-align: left;
-  display: inline-block;
-  max-width: 100%;
-  vertical-align: middle;
-}
-
 body {
   margin: 0;
 }
 
-h2 {
-  font-weight: bold;
-  margin: 0 0 1.5rem;
-  padding: .5rem;
-  text-align: left;
-}
-
-p {
-  max-width: 25em;
-  text-align: left;
-  margin: 0;
-  padding: .5em;
+.banner {
+  padding: 2em 0;
+  text-align: center;
+  background-color: #eee9de;
   vertical-align: middle;
 }
 
-.btn {
-  text-decoration: none;
-  padding: .5em;
+.content-pyramid {
+  padding: 1em;
   display: inline-block;
-  margin: 1.5em;
-  border: 3px solid #333;
-  border-radius: .5em;
+  max-width: 25em;
+  width: 100%
+  vertical-align: middle;
+  text-align: left;
 }
 
-.btn a {
-  font-size: 120%;
-  padding: 0;
+h2,
+p {
+  margin: 0 0 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
+  border: 3px solid #333;
+  border-radius: 8px;
   text-decoration: none;
   color: #333;
 }
@@ -76,7 +45,17 @@ p {
 .btn a:hover {
   color: #fff;
   background-color: #666;
-  width: 7.5em;
-  text-align: center;
-  font-size: 1rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.image {
+  padding: 1em;
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+  vertical-align: middle;
 }
